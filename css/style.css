@@ -221,14 +221,15 @@ and (max-width : 991px) {
     }
     
     .menu-item.responsive {
-        width: 49.5%;
+        width: 32.8%;
         float: left;
-        margin-right: 3px;
     }
     
     .menu-item.responsive-2 {
-        width: 49.5%;
-        float: right;
+        width: 32.8%;
+        margin-right: 3px;
+        margin-left: 3px;
+        float: left;
     }
     
 }

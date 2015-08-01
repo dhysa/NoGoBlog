@@ -1,9 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
 
+@font-face {
+    font-family:'Mandingo-Regular';
+    src: url('../fonts/Mandingo_gdi.eot');
+    src: url('../fonts/Mandingo_gdi.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Mandingo_gdi.woff') format('woff'),
+        url('../fonts/Mandingo_gdi.ttf') format('truetype'),
+        url('../fonts/Mandingo_gdi.otf') format('opentype'),
+        url('../fonts/Mandingo_gdi.svg#Mandingo-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-25CA;
+}
 
 body {
-    background: url(../images/background.jpg) no-repeat;
+    background: url(../images/bg.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
@@ -115,9 +128,9 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .logo h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Mandingo-Regular';
     color: #fff;
-    font-size: 60px;
+    /*font-size: 60px;*/
 }
 
 .logo span {
@@ -157,8 +170,8 @@ fieldset[disabled] .btn-primary.active {
 /**** Start Main Body Section ****/
 
 .mainbody-section {
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .menu-item {

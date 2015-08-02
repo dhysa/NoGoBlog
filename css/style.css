@@ -204,7 +204,7 @@ fieldset[disabled] .btn-primary.active {
 
 .menu-item:hover a {
     text-decoration: none;
-    //color: #333;
+    color: #333;
 	animation: wobble;
 	-webkit-animation: wobble;
 	animation-duration: 1000ms;

@@ -1,0 +1,482 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 25px;
+}
+body{
+    background-color: #EDEFF0;
+}
+.clear{
+    clear: both;
+}
+.wrapper{
+    width: 1000px;
+    margin: 0px auto;
+}
+.body{
+    min-height: 432px; 
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.header{
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color: #000000;
+}
+.logo{
+    float: left;
+    padding-right: 20px;
+}
+.logo a{
+    outline: none;
+}
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffff00;
+}
+.login div#loginerror{
+    font-size: 12px;
+    color: #FF0000;
+    margin-top: -25px;
+}
+p.errorPass{
+    font-size: 12px;
+    color: #FF0000;
+    margin-top: -8px;
+    margin-bottom: -17px;
+}
+.navigation ul li{
+    list-style: none;
+    float: left;
+    margin: 10px;
+    margin-top: 40px;
+}
+.navigation ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffff00;
+}
+.navigation ul li a:hover{
+    text-decoration: line-through;
+}
+.login{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.login h1{
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+    border-bottom: 2px solid #000000;
+}
+.login p{
+    margin-top: 30px;
+}
+.login form{
+    margin-left: 33%;
+    padding: 0px 20px 20px 20px;
+    width: 300px;
+    background-color: #ffffff;
+}
+.login input:not([type="submit"]){
+    width: 100%;
+    height: 40px;
+    padding-left: 2px;
+    background-color: #EDEFF0;
+    border: 1px solid #ADB4BA;
+    text-indent: 3px;
+}
+.login input[type="submit"]{
+    width: 50%;
+    margin-left: 25%;
+    cursor: pointer;
+}
+.dashboard ul{
+    margin-left: 150px;   
+}
+.dashboard ul li{
+    list-style: none;
+    border: 1px solid #ADB4BA;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 40px;
+    margin-top: 80px;
+    padding-top: 20px;
+    float: left;
+    color: #000000;
+}
+.dashboard ul li:hover{
+    background-color: #adb4ba;
+    color: #ffffff;
+}
+.dashboard a{
+    text-decoration:none;   
+}
+.customer #top{
+    background-image: url('../assets/up.png');
+    background-size: 100%;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    opacity: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.customer #bottom{
+    background-image: url('../assets/down.png');
+    background-size: 100%;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    opacity: 1px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.customer table{
+    padding: 2px;
+    border-style: groove;
+}
+.customer tr, th, td{
+    padding: 2px;
+    border-style: groove;
+    word-wrap:break-word;
+    empty-cells: show;
+}
+.customer td.lastUpdate{
+    width: 120px;
+    max-width: 120px;
+    height: 50px;
+    max-height: 70px;
+}
+.customer td.companyName{
+    width: 200px;
+    max-width: 200px;
+    height: 50px;
+    max-height: 50px;
+    word-wrap:break-word;
+}
+.customer td.companyAddress{
+    height: 50px;
+    max-height: 50px;
+    width: 350px;
+    max-width: 350px;
+    word-wrap:break-word;
+}
+.customer td.companyCP{
+    height: 50px;
+    max-height: 50px;
+    width: 200px;
+    word-wrap:break-word;
+    max-width: 200px;
+}
+.customer td.details{
+    background-color: #000000;
+    border: none;
+}
+.customer a{
+    outline: none;
+    text-decoration: none;
+}
+.customer div#details{
+    color: #ffff00;
+    cursor: pointer;
+    text-align: center;
+    padding: 3px;
+}
+.customer a.add{
+    background-color: #000000;
+    border: none;
+    padding: 10px;
+    color: #ffff00;
+    cursor: pointer;
+    text-decoration: none;
+}
+.customer input[name="search"]{
+    float: right;
+    padding: 1px 4px 1px 4px;
+    margin-top: 2px;
+    margin-right: 10px;
+    border: 1px solid #ADB4BA;
+    background-color: #adb4ba;
+    line-height: 20px;
+    color: #000000;
+    outline: none;
+    text-indent: 3px;
+}
+.customer input[type="submit"]{
+    float: right;
+    border: 1px solid #ADB4BA;
+    background-color: #000000;
+    color: #ffff00;
+    padding: 2px 5px 2px 5px;
+    line-height: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.customer ::-webkit-input-placeholder{
+    color: #000000;
+}
+.customer ::-moz-placeholder{
+    color: #000000;
+}
+.customer ::-ms-input-placeholder{
+    color: #000000;
+}
+.user-details td:nth-last-child(-n+2){
+    border: 1px solid #ADB4BA;
+    background-color: #000000;
+    text-align: center;
+}
+.user-details td.blank{
+    background-color: #EDEFF0;
+    border: none;
+}
+.customer option{
+    border: 1px solid #ADB4BA;
+    background-color: #000000;
+    color: #ffff00;
+}
+.addCompany h1,
+.editCompany h1,
+.user h1,
+.add h1,
+.reset h1{
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.addCompany .left,
+.editCompany .left,
+.user .left,
+.add .left,
+.reset .left{
+    float: left;
+    padding-left: 50px;
+}
+.addCompany .left p,
+.editCompany .left p{
+    font-size: 14px;
+    line-height: 34px;
+}
+.admin ul{
+    margin-left: 150px;   
+}
+.admin ul li{
+    list-style: none;
+    border: 1px solid #ADB4BA;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 40px;
+    margin-top: 80px;
+    padding-top: 20px;
+    float: left;
+    color: #000000;
+}
+.admin a{
+    text-decoration: none;
+}
+.admin ul li:hover{
+    background-color: #adb4ba;
+    color: #fff;
+}
+.user .left p,
+.add .left p,
+.reset .left p{
+    font-size: 14px;
+    line-height: 65px;
+}
+.user input,
+.add input,
+.reset input{
+    width: 650px;
+    margin-top: 30px;
+    font-size: 14px;
+    outline: none;
+    text-indent: 3px;
+    border: 1px solid #ADB4BA;
+}
+.reset input[name="newPass"]{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.reset input[name="newPassw"]{
+    margin-top: 20px;
+}
+.add input[name="username"]{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.add input[name="password"]{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.add input[name="password2"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.add #selectmenu-button{
+    margin-top: 15px;
+}
+.add .ui-state-default,
+.add .ui-state-hover,
+.add .ui-widget-content .ui-state-default,
+.add.ui-widget-header .ui-state-default{
+    background: none;
+    background-color: #ffffff;
+    border: 1px solid #ADB4BA;
+    border-radius: 0px;
+    color: #000000;
+}
+.add .ui-icon, 
+.add .ui-widget-content .ui-icon,
+.add .ui-state-default .ui-icon{
+    background-image: url('../assets/ui-icons_222222_256x240.png')
+}
+.add option:first-child{
+    display: none;
+}
+.addCompany .right,
+.editCompany .right,
+.user .right,
+.add .right,
+.reset .right{
+    float: right;
+    padding-right: 50px;
+}
+.addCompany .right input,
+.editCompany .right input{
+    width: 650px;
+    margin-top: 5px;
+    font-size: 14px;
+    text-indent: 3px;
+    outline: none;
+    border: 1px solid #ADB4BA;
+}
+.addCompany .right textarea,
+.editCompany .right textarea{
+    max-width: 650px;
+    width: 650px;
+    margin-top: 5px;
+    font-size: 14px;
+    resize: none;
+    padding-left: 3px;
+    outline: none;
+    border: 1px solid #ADB4BA;
+}
+.addCompany input[type="submit"],
+.editCompany input[type="submit"],
+.user input[type="submit"],
+.add input[type="submit"],
+.reset input[type="submit"]{
+    width: 25%;
+    margin: 20px;
+    margin-left: 700px;
+    text-transform: uppercase;
+    background-color: #000000;
+    border: none;
+    color: #ffff00;
+    cursor: pointer;
+    outline: none;
+}
+.addCompany button,
+.editCompany button{
+    width: 25%;
+    margin-left: 50px;
+    margin-top: -45px;
+    text-transform: uppercase;
+    background-color: #000000;
+    border: none;
+    color: #ffff00;
+    cursor: pointer;
+    outline: none;
+}
+.details table,
+.details th{
+    text-align: left;
+    empty-cells: show;
+}
+.details td{
+    text-align: left;
+    empty-cells: show;
+    display: block;
+    min-height: 26px;
+    width: 750px;
+    max-width: 750px;
+    word-wrap:break-word;
+}
+.details button{
+    background-color: #000000;
+    border: none;
+    color: #ffff00;
+    padding: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.user-details button{
+    background-color: #000000;
+    border: none;
+    color: #ffff00;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.user-details table{
+    padding: 2px;
+    border-style: groove;
+}
+
+/*mozilla only*/
+@-moz-document url-prefix() { 
+    .body{
+        min-height: 422px;
+    }
+    .customer input[name="search"]{
+        margin-top: 1px;
+        padding: 2px;
+    }
+    .addCompany .right textarea, .editCompany .right textarea{
+        height: 60px;
+    }
+    .addCompany .right input[name="cCP2"], .editCompany .right input[name="cCP2"]{
+        margin-top: 12px;
+    }
+    .addCompany .right input[name="cCP3"], .editCompany .right input[name="cCP3"]{
+        margin-top: 12px;
+    }
+    .add input[name="username"]{
+        margin-top: 20px;
+    }
+    .add input[name="password"]{
+        margin-top: 18px;
+    }
+    .add input[name="password2"]{
+        margin-top: 18px;
+    }
+    .add select{
+        margin-top: 20px;
+        margin-bottom: 23px; 
+    }
+    p.errorPass{
+        font-size: 12px;
+        color: #FF0000;
+        margin-top: -8px;
+        margin-bottom: -17px;
+    }
+}

@@ -35,7 +35,7 @@
             }
 
             .login img {
-                width: 190px;
+                width: 350px;
                 margin-bottom: 20px;
             }
 
@@ -90,7 +90,7 @@
             
         </style>
         <div class="login">
-            <h1>LOGIN</h1>
+            <img src="../images/nogoblog-admin.png">
             <form action="" method="post" class="login-form">
                 <?php if(isset($error)){ echo '<h4 class="error">Login Error</h4>'; } ?>
                 <input type="text" name="username" class="login-username" placeholder="Username" />

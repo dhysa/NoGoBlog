@@ -124,6 +124,7 @@ fieldset[disabled] .btn-primary.active {
 /**** Start Logo Section ****/
 
 #logo-section {
+
     
 }
 
@@ -137,6 +138,11 @@ fieldset[disabled] .btn-primary.active {
     color: #999;
 }
 
+.logo img {
+
+    width: 500px;
+    height: 115px;
+}
 
 
 /**** Start Background Color ****/

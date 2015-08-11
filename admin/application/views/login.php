@@ -90,7 +90,7 @@
             
         </style>
         <div class="login">
-            <img src="../../images/nogoblog-admin.png">
+            <img src="<?php echo base_url();?>images/nogoblog-admin.png">
             <form action="" method="post" class="login-form">
                 <?php if(isset($error)){ echo '<h4 class="error">Login Error</h4>'; } ?>
                 <input type="text" name="username" class="login-username" placeholder="Username" />

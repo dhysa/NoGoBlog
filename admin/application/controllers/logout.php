@@ -9,7 +9,7 @@
             // $loginCheck = $this->session->userdata('adminID');
             // if(!empty($loginCheck)){
             //     $this->session->sess_destroy();
-                redirect(base_urL().'login/');
+                redirect(base_url().'login/');
         //     } else {
         //         show_404();
         //     }

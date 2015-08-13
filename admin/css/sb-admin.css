@@ -43,7 +43,13 @@ body {
 }
 
 /* Top Navigation */
-
+a.navbar-brand {
+    padding: 3px 15px;
+}
+a.navbar-brand img{
+    background-color: #fff;
+    width: 200px;
+}
 .top-nav {
     padding: 0 15px;
 }

@@ -686,16 +686,16 @@ and (max-width : 991px) {
 }
 
 
-/**** Start Team Member Section ****/
+/**** Start Senior High Section ****/
 
 
-.team-member {
+.senior-role {
     position: relative;
     width: 100%;
     margin-bottom: 30px;
 }
 
-.team-details {
+.senior-role-details {
     /*font-family: 'Open Sans', sans-serif;*/
     padding-left: 10px;
     position: absolute;
@@ -706,38 +706,41 @@ and (max-width : 991px) {
     opacity: 0;
 }
 
-.team-member img {
+.senior-role img {
     width: 100%;
     height: auto;
 }
 
-.team-details h4 {
-    font-size: 25px;
+.senior-role-details {
+    padding-top: 22%;
+    padding-bottom: 22%;
+}
+
+.senior-role-details h1 {
     font-weight: 300;
     color: #FF432E;
     /*font-family: 'Oswald', sans-serif;*/
     text-transform: none;
     text-align: center;
-    padding-top: 20%;
 }
 
-.team-details .designation {
-    font-size: 16px;
+.senior-role-details .caption {
+    font-size: 20px;
     font-weight: 300;
     color: #fff;
     text-align: center;
 }
 
-.team-details ul {
+.senior-role-details ul {
     padding-top: 40%;
 }
-.team-details li {
+.senior-role-details li {
     display: inline-block;
     list-style: none;
     padding-right: 10px;
 }
 
-.team-details li a {
+.senior-role-details li a {
     padding: 5px 8px;
     background: #FF432E;
     color: #fff;
@@ -747,7 +750,7 @@ and (max-width : 991px) {
     border-radius: 2px;
 }
 
-.team-member:hover .team-details {
+.senior-role:hover .senior-role-details {
     opacity: 1;
     -webkit-animation: pulse;
     animation: pulse;

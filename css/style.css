@@ -125,12 +125,6 @@ fieldset[disabled] .btn-primary.active {
     
 }
 
-.logo h1 {
-    font-family: 'Mandingo-Regular';
-    color: #fff;
-    /*font-size: 60px;*/
-}
-
 .logo span {
     color: #999;
 }

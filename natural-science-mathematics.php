@@ -34,7 +34,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="logo text-center">
-                        <img src="images/nogoblog.png">
+                        <a href="http://localhost/nogoblog"><img src="images/nogoblog.png"></a>
                         <h3>Mathematics - Natural Science</h3>
                         <h4>Matematika - Ilmu Pengetahuan Alam</h4>
                     </div>
@@ -70,7 +70,7 @@
                                             </a>
                                         </div>
                                         <div class="collapse" id="physics_items10">
-                                            <div class="well">
+                                            <div class="well bold">
                                                 <a href="">Newton I <br></a>
                                                 <a href="">Newton II</a>
                                             </div>
@@ -84,7 +84,7 @@
                                             </a>
                                         </div>
                                         <div class="collapse" id="math_items10">
-                                            <div class="well">
+                                            <div class="well bold">
                                                 <a href="">Add <br></a>
                                                 <a href="">Substract</a>
                                             </div>
@@ -98,7 +98,7 @@
                                             </a>
                                         </div>
                                         <div class="collapse" id="bio_items10">
-                                            <div class="well">
+                                            <div class="well bold">
                                                 <a href="">Flora <br></a>
                                                 <a href="">Fauna</a>
                                             </div>
@@ -112,7 +112,7 @@
                                             </a>
                                         </div>
                                         <div class="collapse" id="chemis_items10">
-                                            <div class="well">
+                                            <div class="well bold">
                                                 <a href="">Asam <br></a>
                                                 <a href="">Basa</a>
                                             </div>

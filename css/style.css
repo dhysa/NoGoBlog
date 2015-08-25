@@ -979,3 +979,10 @@ and (max-width : 991px) {
     padding: 20px;
     color: #fff;
 }
+
+
+/****** font ********/
+
+.bold {
+    font-weight: bold;
+}

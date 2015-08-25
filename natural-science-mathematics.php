@@ -66,7 +66,7 @@
                                         <div class="menu-item green">
                                             <a role="button" data-toggle="collapse" href="#physics_items10" aria-expanded="false" aria-controls="physics_items10">
                                                 <i class="fa fa-user"></i>
-                                                <p>Physics</p>
+                                                <p>BAB I</p>
                                             </a>
                                         </div>
                                         <div class="collapse" id="physics_items10">
@@ -80,7 +80,7 @@
                                         <div class="menu-item green">
                                             <a role="button" data-toggle="collapse" href="#math_items10" aria-expanded="false" aria-controls="math_items10">
                                                 <i class="fa fa-user"></i>
-                                                <p>Math</p>
+                                                <p>BAB II</p>
                                             </a>
                                         </div>
                                         <div class="collapse" id="math_items10">
@@ -94,7 +94,7 @@
                                         <div class="menu-item green">
                                             <a role="button" data-toggle="collapse" href="#bio_items10" aria-expanded="false" aria-controls="bio_items10">
                                                 <i class="fa fa-user"></i>
-                                                <p>Biology</p>
+                                                <p>BAB III</p>
                                             </a>
                                         </div>
                                         <div class="collapse" id="bio_items10">
@@ -108,7 +108,7 @@
                                         <div class="menu-item green">
                                             <a role="button" data-toggle="collapse" href="#chemis_items10" aria-expanded="false" aria-controls="chemis_items10">
                                                 <i class="fa fa-user"></i>
-                                                <p>Chemistry</p>
+                                                <p>BAB IV</p>
                                             </a>
                                         </div>
                                         <div class="collapse" id="chemis_items10">
@@ -139,7 +139,7 @@
                                     <div class="menu-item light-red">
                                         <a role="button" data-toggle="collapse" href="#physics_items11" aria-expanded="false" aria-controls="physics_items11">
                                             <i class="fa fa-user"></i>
-                                            <p>Physics</p>
+                                            <p>BAB I</p>
                                         </a>
                                     </div>
                                     <div class="collapse" id="physics_items11">
@@ -153,7 +153,7 @@
                                     <div class="menu-item light-red">
                                         <a role="button" data-toggle="collapse" href="#math_items11" aria-expanded="false" aria-controls="math_items11">
                                             <i class="fa fa-user"></i>
-                                            <p>Math</p>
+                                            <p>BAB II</p>
                                         </a>
                                     </div>
                                     <div class="collapse" id="math_items11">
@@ -167,7 +167,7 @@
                                     <div class="menu-item light-red">
                                         <a role="button" data-toggle="collapse" href="#bio_items11" aria-expanded="false" aria-controls="bio_items11">
                                             <i class="fa fa-user"></i>
-                                            <p>Biology</p>
+                                            <p>BAB III</p>
                                         </a>
                                     </div>
                                     <div class="collapse" id="bio_items11">
@@ -181,7 +181,7 @@
                                     <div class="menu-item light-red">
                                         <a role="button" data-toggle="collapse" href="#chemis_items11" aria-expanded="false" aria-controls="chemis_items11">
                                             <i class="fa fa-user"></i>
-                                            <p>Chemistry</p>
+                                            <p>BAB IV</p>
                                         </a>
                                     </div>
                                     <div class="collapse" id="chemis_items11">
@@ -211,7 +211,7 @@
                                     <div class="menu-item maroon">
                                         <a role="button" data-toggle="collapse" href="#physics_items12" aria-expanded="false" aria-controls="physics_items12">
                                             <i class="fa fa-user"></i>
-                                            <p>Physics</p>
+                                            <p>BAB I</p>
                                         </a>
                                     </div>
                                     <div class="collapse" id="physics_items12">
@@ -225,7 +225,7 @@
                                     <div class="menu-item maroon">
                                         <a role="button" data-toggle="collapse" href="#math_items12" aria-expanded="false" aria-controls="math_items12">
                                             <i class="fa fa-user"></i>
-                                            <p>Math</p>
+                                            <p>BAB II</p>
                                         </a>
                                     </div>
                                     <div class="collapse" id="math_items12">
@@ -239,7 +239,7 @@
                                     <div class="menu-item maroon">
                                         <a role="button" data-toggle="collapse" href="#bio_items12" aria-expanded="false" aria-controls="bio_items12">
                                             <i class="fa fa-user"></i>
-                                            <p>Biology</p>
+                                            <p>BAB III</p>
                                         </a>
                                     </div>
                                     <div class="collapse" id="bio_items12">
@@ -253,7 +253,7 @@
                                     <div class="menu-item maroon">
                                         <a role="button" data-toggle="collapse" href="#chemis_items12" aria-expanded="false" aria-controls="chemis_items12">
                                             <i class="fa fa-user"></i>
-                                            <p>Chemistry</p>
+                                            <p>BAB IV</p>
                                         </a>
                                     </div>
                                     <div class="collapse" id="chemis_items12">

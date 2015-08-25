@@ -63,103 +63,216 @@
                             <div class="panel-body">
                                 <div class="row">
                                     <div class="col-md-3">
-                                        <div class="menu-item maroon">
-                                            <a  role="button" data-toggle="collapse" href="#physics_items" aria-expanded="false" aria-controls="physics_items">
+                                        <div class="menu-item green">
+                                            <a role="button" data-toggle="collapse" href="#physics_items10" aria-expanded="false" aria-controls="physics_items10">
                                                 <i class="fa fa-user"></i>
                                                 <p>Physics</p>
                                             </a>
                                         </div>
-                                               <div class="collapse" id="physics_items">
-                                                <div class="well">
-                                                  <a href="">Newton I <br></a>
-                                                  <a href="">Newton II</a>
-                                                </div>
-                                    </div>
+                                        <div class="collapse" id="physics_items10">
+                                            <div class="well">
+                                                <a href="">Newton I <br></a>
+                                                <a href="">Newton II</a>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="col-md-3">
-                                        <div class="menu-item maroon">
-                                            <a  role="button" data-toggle="collapse" href="#math_items" aria-expanded="false" aria-controls="math_items">
+                                        <div class="menu-item green">
+                                            <a role="button" data-toggle="collapse" href="#math_items10" aria-expanded="false" aria-controls="math_items10">
                                                 <i class="fa fa-user"></i>
                                                 <p>Math</p>
                                             </a>
                                         </div>
-                                               <div class="collapse" id="math_items">
-                                                <div class="well">
-                                                  <a href="">Add <br></a>
-                                                  <a href="">Substract</a>
-                                                </div>
-                                    </div>
+                                        <div class="collapse" id="math_items10">
+                                            <div class="well">
+                                                <a href="">Add <br></a>
+                                                <a href="">Substract</a>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="col-md-3">
-                                        <div class="menu-item maroon">
-                                            <a  role="button" data-toggle="collapse" href="#bio_items" aria-expanded="false" aria-controls="bio_items">
+                                        <div class="menu-item green">
+                                            <a role="button" data-toggle="collapse" href="#bio_items10" aria-expanded="false" aria-controls="bio_items10">
                                                 <i class="fa fa-user"></i>
                                                 <p>Biology</p>
                                             </a>
                                         </div>
-                                               <div class="collapse" id="bio_items">
-                                                <div class="well">
-                                                  <a href="">Flora <br></a>
-                                                  <a href="">Fauna</a>
-                                                </div>
-                                    </div>
+                                        <div class="collapse" id="bio_items10">
+                                            <div class="well">
+                                                <a href="">Flora <br></a>
+                                                <a href="">Fauna</a>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="col-md-3">
-                                        <div class="menu-item maroon">
-                                            <a  role="button" data-toggle="collapse" href="#chemis_items" aria-expanded="false" aria-controls="chemis_items">
+                                        <div class="menu-item green">
+                                            <a role="button" data-toggle="collapse" href="#chemis_items10" aria-expanded="false" aria-controls="chemis_items10">
                                                 <i class="fa fa-user"></i>
                                                 <p>Chemistry</p>
                                             </a>
                                         </div>
-                                               <div class="collapse" id="chemis_items">
-                                                <div class="well">
-                                                  <a href="">Asam <br></a>
-                                                  <a href="">Basa</a>
-                                                </div>
-                                    </div>
+                                        <div class="collapse" id="chemis_items10">
+                                            <div class="well">
+                                                <a href="">Asam <br></a>
+                                                <a href="">Basa</a>
+                                            </div>
+                                        </div>
                                     </div>
 
-                                    </div>
                                 </div>
-
-
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="gradeTwo">
-                            <h4 class="panel-title">
-                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#natural-science-math" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Grade 11
-                          </a>
-                        </h4>
-                        </div>
-                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="gradeTwo">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="gradeThree">
-                            <h4 class="panel-title">
-                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#natural-science-math" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Grade 12
-                          </a>
-                        </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="gradeThree">
-                            <div class="panel-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- End Panel Chapter -->
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="gradeTwo">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#natural-science-math" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Grade 11
+                          </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="gradeTwo">
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="menu-item light-red">
+                                        <a role="button" data-toggle="collapse" href="#physics_items11" aria-expanded="false" aria-controls="physics_items11">
+                                            <i class="fa fa-user"></i>
+                                            <p>Physics</p>
+                                        </a>
+                                    </div>
+                                    <div class="collapse" id="physics_items11">
+                                        <div class="well">
+                                            <a href="">Newton I <br></a>
+                                            <a href="">Newton II</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="menu-item light-red">
+                                        <a role="button" data-toggle="collapse" href="#math_items11" aria-expanded="false" aria-controls="math_items11">
+                                            <i class="fa fa-user"></i>
+                                            <p>Math</p>
+                                        </a>
+                                    </div>
+                                    <div class="collapse" id="math_items11">
+                                        <div class="well">
+                                            <a href="">Add <br></a>
+                                            <a href="">Substract</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="menu-item light-red">
+                                        <a role="button" data-toggle="collapse" href="#bio_items11" aria-expanded="false" aria-controls="bio_items11">
+                                            <i class="fa fa-user"></i>
+                                            <p>Biology</p>
+                                        </a>
+                                    </div>
+                                    <div class="collapse" id="bio_items11">
+                                        <div class="well">
+                                            <a href="">Flora <br></a>
+                                            <a href="">Fauna</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="menu-item light-red">
+                                        <a role="button" data-toggle="collapse" href="#chemis_items11" aria-expanded="false" aria-controls="chemis_items11">
+                                            <i class="fa fa-user"></i>
+                                            <p>Chemistry</p>
+                                        </a>
+                                    </div>
+                                    <div class="collapse" id="chemis_items11">
+                                        <div class="well">
+                                            <a href="">Asam <br></a>
+                                            <a href="">Basa</a>
+                                        </div>
+                                    </div>
+                                </div>
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="gradeThree">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#natural-science-math" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Grade 12
+                          </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="gradeThree">
+                        <div class="panel-body">
+                           <div class="row">
+                                <div class="col-md-3">
+                                    <div class="menu-item maroon">
+                                        <a role="button" data-toggle="collapse" href="#physics_items12" aria-expanded="false" aria-controls="physics_items12">
+                                            <i class="fa fa-user"></i>
+                                            <p>Physics</p>
+                                        </a>
+                                    </div>
+                                    <div class="collapse" id="physics_items12">
+                                        <div class="well">
+                                            <a href="">Newton I <br></a>
+                                            <a href="">Newton II</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="menu-item maroon">
+                                        <a role="button" data-toggle="collapse" href="#math_items12" aria-expanded="false" aria-controls="math_items12">
+                                            <i class="fa fa-user"></i>
+                                            <p>Math</p>
+                                        </a>
+                                    </div>
+                                    <div class="collapse" id="math_items12">
+                                        <div class="well">
+                                            <a href="">Add <br></a>
+                                            <a href="">Substract</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="menu-item maroon">
+                                        <a role="button" data-toggle="collapse" href="#bio_items12" aria-expanded="false" aria-controls="bio_items12">
+                                            <i class="fa fa-user"></i>
+                                            <p>Biology</p>
+                                        </a>
+                                    </div>
+                                    <div class="collapse" id="bio_items12">
+                                        <div class="well">
+                                            <a href="">Flora <br></a>
+                                            <a href="">Fauna</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="menu-item maroon">
+                                        <a role="button" data-toggle="collapse" href="#chemis_items12" aria-expanded="false" aria-controls="chemis_items12">
+                                            <i class="fa fa-user"></i>
+                                            <p>Chemistry</p>
+                                        </a>
+                                    </div>
+                                    <div class="collapse" id="chemis_items12">
+                                        <div class="well">
+                                            <a href="">Asam <br></a>
+                                            <a href="">Basa</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- End Panel Chapter -->
+
         </div>
+    </div>
     </div>
 </body>
 

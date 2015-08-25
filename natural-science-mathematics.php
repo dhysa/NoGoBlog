@@ -64,35 +64,60 @@
                                 <div class="row">
                                     <div class="col-md-3">
                                         <div class="menu-item maroon">
-                                            <a href="#about-modal" data-toggle="modal">
+                                            <a  role="button" data-toggle="collapse" href="#physics_items" aria-expanded="false" aria-controls="physics_items">
                                                 <i class="fa fa-user"></i>
                                                 <p>Physics</p>
                                             </a>
                                         </div>
+                                               <div class="collapse" id="physics_items">
+                                                <div class="well">
+                                                  <a href="">Newton I <br></a>
+                                                  <a href="">Newton II</a>
+                                                </div>
+                                    </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="menu-item maroon">
-                                            <a href="#about-modal" data-toggle="modal">
+                                            <a  role="button" data-toggle="collapse" href="#math_items" aria-expanded="false" aria-controls="math_items">
                                                 <i class="fa fa-user"></i>
-                                                <p>Math-Science</p>
+                                                <p>Math</p>
                                             </a>
                                         </div>
+                                               <div class="collapse" id="math_items">
+                                                <div class="well">
+                                                  <a href="">Add <br></a>
+                                                  <a href="">Substract</a>
+                                                </div>
+                                    </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="menu-item maroon">
-                                            <a href="#about-modal" data-toggle="modal">
+                                            <a  role="button" data-toggle="collapse" href="#bio_items" aria-expanded="false" aria-controls="bio_items">
                                                 <i class="fa fa-user"></i>
                                                 <p>Biology</p>
                                             </a>
                                         </div>
+                                               <div class="collapse" id="bio_items">
+                                                <div class="well">
+                                                  <a href="">Flora <br></a>
+                                                  <a href="">Fauna</a>
+                                                </div>
+                                    </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="menu-item maroon">
-                                            <a href="#about-modal" data-toggle="modal">
+                                            <a  role="button" data-toggle="collapse" href="#chemis_items" aria-expanded="false" aria-controls="chemis_items">
                                                 <i class="fa fa-user"></i>
                                                 <p>Chemistry</p>
                                             </a>
                                         </div>
+                                               <div class="collapse" id="chemis_items">
+                                                <div class="well">
+                                                  <a href="">Asam <br></a>
+                                                  <a href="">Basa</a>
+                                                </div>
+                                    </div>
+                                    </div>
 
                                     </div>
                                 </div>

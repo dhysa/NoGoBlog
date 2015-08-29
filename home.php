@@ -11,7 +11,7 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Font Awesome CSS -->
-    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/style-main.css" rel="stylesheet">
@@ -51,11 +51,6 @@
             <button type="submit" class="btn btn-success">Sign in</button>
           </form>
         </div><!--/.navbar-collapse -->
-
-<ol class="breadcrumb">
-  <li class="active"><i class="fa fa-home"></i></li>
-</ol>
-      </div>
     </nav>
 
     <!-- Start Main Body Section -->

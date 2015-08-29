@@ -27,6 +27,16 @@
             $('.row-offcanvas').toggleClass('active');
 
             $('[data-toggle=grade10-offcanvas]').click(function () {
+                $('.list-group-grade-10').show();
+                $('.list-group-grade-11').hide();
+                $('.list-group-grade-12').hide();
+                if ($('.row-offcanvas').hasClass('active')){
+                    $('.btn-grade11').css('visibility', 'hidden')
+                    $('.btn-grade12').css('visibility', 'hidden')
+                } else{
+                    $('.btn-grade11').css('visibility', 'visible')
+                    $('.btn-grade12').css('visibility', 'visible')
+                }
                 if ($('.sidebar-offcanvas').css('background-color') == 'rgb(255, 255, 255)') {
                     $('.list-group-item').attr('tabindex', '-1');
                 } else {
@@ -34,6 +44,45 @@
                 }
                 $('.row-offcanvas').toggleClass('active');
             });
+
+            $('[data-toggle=grade11-offcanvas]').click(function () {
+                $('.list-group-grade-10').hide();
+                $('.list-group-grade-11').show();
+                $('.list-group-grade-12').hide();
+                if ($('.row-offcanvas').hasClass('active')){
+                    $('.btn-grade10').css('visibility', 'hidden')
+                    $('.btn-grade12').css('visibility', 'hidden')
+                } else{
+                    $('.btn-grade10').css('visibility', 'visible')
+                    $('.btn-grade12').css('visibility', 'visible')
+                }
+                if ($('.sidebar-offcanvas').css('background-color') == 'rgb(255, 255, 255)') {
+                    $('.list-group-item').attr('tabindex', '-1');
+                } else {
+                    $('.list-group-item').attr('tabindex', '');
+                }
+                $('.row-offcanvas').toggleClass('active');
+            })
+
+            $('[data-toggle=grade12-offcanvas]').click(function () {
+                $('.list-group-grade-10').hide();
+                $('.list-group-grade-11').hide();
+                $('.list-group-grade-12').show();
+                if ($('.row-offcanvas').hasClass('active')){
+                    $('.btn-grade10').css('visibility', 'hidden')
+                    $('.btn-grade11').css('visibility', 'hidden')
+                } else{
+                    $('.btn-grade10').css('visibility', 'visible')
+                    $('.btn-grade11').css('visibility', 'visible')
+                }
+                if ($('.sidebar-offcanvas').css('background-color') == 'rgb(255, 255, 255)') {
+                    $('.list-group-item').attr('tabindex', '-1');
+                } else {
+                    $('.list-group-item').attr('tabindex', '');
+                }
+                $('.row-offcanvas').toggleClass('active');
+            })
+
         });
     </script>
 
@@ -70,7 +119,7 @@
         </div><!--/.navbar-collapse -->
 
 <ol class="breadcrumb">
-  <li><i class="fa fa-home"><a href="home.php"></a></i></li>
+  <li><a href="../../home.php"><i class="fa fa-home"></i></a></li>
   <li>Grade 10</li>
   <li>Religi</li>
   <li class="active">Chapter 1</li>
@@ -82,31 +131,159 @@
     <div class="mainbody-section text-center">
 
         <div class="container-fluid">
-      <div class="row row-offcanvas row-offcanvas-left">
+      <div class="row row-offcanvas row-offcanvas-left text-center">
 
         <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-          <div class="list-group">
-            <a href="#" class="list-group-item active">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
-            <a href="#" class="list-group-item">Link</a>
+          <div class="list-group list-group-grade-10">
+            <a href="#" class="list-group-item" data-toggle="collapse" data-target="#religi_10">Religi <i class="fa fa-caret-down"></i></a>
+                <ul id="religi_10" class="well bold collapse">
+                    <li>
+                        <a href="#">Chapter 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Chapter 2</a>
+                    </li>
+                </ul>
+            <a href="#" class="list-group-item" data-toggle="collapse" data-target="#citizenship_10">Citizenship <i class="fa fa-caret-down"></i></a>
+                <ul id="citizenship_10" class="well bold collapse">
+                    <li>
+                        <a href="#">Chapter 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Chapter 2</a>
+                    </li>
+                </ul>
+            <a href="#" class="list-group-item" data-toggle="collapse" data-target="#indonesian_10">Indonesian Language <i class="fa fa-caret-down"></i></a>
+                <ul id="indonesian_10" class="well bold collapse">
+                    <li>
+                        <a href="#">Chapter 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Chapter 2</a>
+                    </li>
+                </ul>
+            <a href="#" class="list-group-item" data-toggle="collapse" data-target="#English_10">English <i class="fa fa-caret-down"></i></a>
+                <ul id="english_10" class="well bold collapse">
+                    <li>
+                        <a href="#">Chapter 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Chapter 2</a>
+                    </li>
+                </ul>
+            <a href="#" class="list-group-item" data-toggle="collapse" data-target="#math_10">Mathematics <i class="fa fa-caret-down"></i></a>
+                <ul id="math_10" class="well bold collapse">
+                    <li>
+                        <a href="#">Chapter 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Chapter 2</a>
+                    </li>
+                </ul>
+            <a href="#" class="list-group-item" data-toggle="collapse" data-target="#physics_10">Physics <i class="fa fa-caret-down"></i></a>
+                <ul id="physics_10" class="well bold collapse">
+                    <li>
+                        <a href="#">Chapter 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Chapter 2</a>
+                    </li>
+                </ul>
+            <a href="#" class="list-group-item" data-toggle="collapse" data-target="#chemistry_10">Chemistry <i class="fa fa-caret-down"></i></a>
+                <ul id="chemistry_10" class="well bold collapse">
+                    <li>
+                        <a href="#">Chapter 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Chapter 2</a>
+                    </li>
+                </ul>
+            <a href="#" class="list-group-item" data-toggle="collapse" data-target="#biology_10">Biology <i class="fa fa-caret-down"></i></a>
+                <ul id="biology_10" class="well bold collapse">
+                    <li>
+                        <a href="#">Chapter 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Chapter 2</a>
+                    </li>
+                </ul>
+            <a href="#" class="list-group-item" data-toggle="collapse" data-target="#geography_10">Geography <i class="fa fa-caret-down"></i></a>
+                <ul id="geography_10" class="well bold collapse">
+                    <li>
+                        <a href="#">Chapter 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Chapter 2</a>
+                    </li>
+                </ul>
+            <a href="#" class="list-group-item" data-toggle="collapse" data-target="#economy_10">Economy <i class="fa fa-caret-down"></i></a>
+                <ul id="economy_10" class="well bold collapse">
+                    <li>
+                        <a href="#">Chapter 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Chapter 2</a>
+                    </li>
+                </ul>
+            <a href="#" class="list-group-item" data-toggle="collapse" data-target="#sociology_10">Sociology <i class="fa fa-caret-down"></i></a>
+                <ul id="sociology_10" class="well bold collapse">
+                    <li>
+                        <a href="#">Chapter 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Chapter 2</a>
+                    </li>
+                </ul>
+            <a href="#" class="list-group-item" data-toggle="collapse" data-target="#history_10">History <i class="fa fa-caret-down"></i></a>
+                <ul id="history_10" class="well bold collapse">
+                    <li>
+                        <a href="#">Chapter 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Chapter 2</a>
+                    </li>
+                </ul>
           </div>
 
-          
+          <div class="list-group list-group-grade-11">
+            <a href="#" class="list-group-item active">grade 11</a>
+            <a href="#" class="list-group-item">grade 11</a>
+            <a href="#" class="list-group-item">grade 11</a>
+            <a href="#" class="list-group-item">grade 11</a>
+            <a href="#" class="list-group-item">grade 11</a>
+            <a href="#" class="list-group-item">grade 11</a>
+            <a href="#" class="list-group-item">grade 11</a>
+            <a href="#" class="list-group-item">grade 11</a>
+            <a href="#" class="list-group-item">grade 11</a>
+            <a href="#" class="list-group-item">grade 11</a>
+          </div>
+
+          <div class="list-group list-group-grade-12">
+            <a href="#" class="list-group-item active">grade 12</a>
+            <a href="#" class="list-group-item">grade 12</a>
+            <a href="#" class="list-group-item">grade 12</a>
+            <a href="#" class="list-group-item">grade 12</a>
+            <a href="#" class="list-group-item">grade 12</a>
+            <a href="#" class="list-group-item">grade 12</a>
+            <a href="#" class="list-group-item">grade 12</a>
+            <a href="#" class="list-group-item">grade 12</a>
+            <a href="#" class="list-group-item">grade 12</a>
+            <a href="#" class="list-group-item">grade 12</a>
+          </div>
+
+
         </div><!--/span-->
         <div class="col-xs-12 col-sm-9 content">
           <p class="pull-left">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="grade10-offcanvas">Grade 10</button>
+            <button type="button" class="btn btn-primary btn-xs btn-grade10" data-toggle="grade10-offcanvas">Grade 10</button>
           </p>
           <br clear="both">
           <p class="pull-left">
-            <button type="button" class="btn btn-primary btn-xs" data-toggle="grade11-offcanvas">Grade 11</button>
+            <button type="button" class="btn btn-primary btn-xs btn-grade11" data-toggle="grade11-offcanvas">Grade 11</button>
+          </p>
+          <br clear="both">
+          <p class="pull-left">
+            <button type="button" class="btn btn-primary btn-xs btn-grade12" data-toggle="grade12-offcanvas">Grade 12</button>
           </p>
   
   <div class="text-center">

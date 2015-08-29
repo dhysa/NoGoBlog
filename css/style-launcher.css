@@ -131,8 +131,7 @@ fieldset[disabled] .btn-primary.active {
 
 .logo img {
 
-    width: 500px;
-    height: 115px;
+    display: inline
 }
 
 

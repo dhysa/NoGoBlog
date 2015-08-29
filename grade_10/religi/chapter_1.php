@@ -15,10 +15,27 @@
 
     <!-- Custom CSS -->
     <link href="../../css/style-main.css" rel="stylesheet">
+    <link href="../../css/off-canvas.css" rel="stylesheet">
 
     <!-- Template js -->
     <script src="../../js/jquery-2.1.3.min.js"></script>
     <script src="../../bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Canvas collapse menu sidebar js -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.row-offcanvas').toggleClass('active');
+
+            $('[data-toggle=grade10-offcanvas]').click(function () {
+                if ($('.sidebar-offcanvas').css('background-color') == 'rgb(255, 255, 255)') {
+                    $('.list-group-item').attr('tabindex', '-1');
+                } else {
+                    $('.list-group-item').attr('tabindex', '');
+                }
+                $('.row-offcanvas').toggleClass('active');
+            });
+        });
+    </script>
 
     <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -63,416 +80,47 @@
 
     <!-- Start Main Body Section -->
     <div class="mainbody-section text-center">
-        <div class="container">
-            <div class="row">
 
-                <!-- Start Panel Chapter -->
-                <div class="panel-group text-center" id="senior-high">
-                        <div class="panel panel-info">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#senior-high" href="#grade10">Grade 10</a>
-                                </h4>
-                            </div>
-                            <div id="grade10" class="panel-collapse collapse in">
-                                <div class="panel-body">
-                                    <div class="row">
-                                        <div class="col-md-3">
-                                            <div class="menu-item red">
-                                                <a role="button" data-toggle="collapse" href="#religi_10">
-                                                    <p>Religi</p>
-                                                </a>
-                                            </div>
-                                            <div class="collapse" id="religi_10">
-                                                <div class="well bold">
-                                                    <a role="button" data-toggle="collapse" href="#religi_10_chapter_1">
-                                                        <p>Chapter 1</p>
-                                                    </a>
-                                                    <div class="collapse" id="religi_10_chapter_1">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                    <a role="button" data-toggle="collapse" href="#religi_10_chapter_2">
-                                                        <p>Chapter 2</p>
-                                                    </a>
-                                                    <div class="collapse" id="religi_10_chapter_2">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                    <a role="button" data-toggle="collapse" href="#religi_10_chapter_3">
-                                                        <p>Chapter 3</p>
-                                                    </a>
-                                                    <div class="collapse" id="religi_10_chapter_3">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="menu-item red">
-                                                <a role="button" data-toggle="collapse" href="#citizenship_10">
-                                                    <p>Citizenship</p>
-                                                </a>
-                                            </div>
-                                            <div class="collapse" id="citizenship_10">
-                                                <div class="well bold">
-                                                    <a role="button" data-toggle="collapse" href="#citizenship_10_chapter_1">
-                                                        <p>Chapter 1</p>
-                                                    </a>
-                                                    <div class="collapse" id="citizenship_10_chapter_1">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                    <a role="button" data-toggle="collapse" href="#citizenship_10_chapter_2">
-                                                        <p>Chapter 2</p>
-                                                    </a>
-                                                    <div class="collapse" id="citizenship_10_chapter_2">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="menu-item red">
-                                                <a role="button" data-toggle="collapse" href="#indonesian_10">
-                                                    <p>Indonesian Language</p>
-                                                </a>
-                                            </div>
-                                            <div class="collapse" id="indonesian_10">
-                                                <div class="well bold">
-                                                    <a role="button" data-toggle="collapse" href="#indonesian_10_chapter_1">
-                                                        <p>Chapter 1</p>
-                                                    </a>
-                                                    <div class="collapse" id="indonesian_10_chapter_1">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                    <a role="button" data-toggle="collapse" href="#indonesian_10_chapter_2">
-                                                        <p>Chapter 2</p>
-                                                    </a>
-                                                    <div class="collapse" id="indonesian_10_chapter_2">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="menu-item red">
-                                                <a role="button" data-toggle="collapse" href="#english_10">
-                                                    <p>English</p>
-                                                </a>
-                                            </div>
-                                            <div class="collapse" id="english_10">
-                                                <div class="well bold">
-                                                    <a role="button" data-toggle="collapse" href="#english_10_chapter_1">
-                                                        <p>Chapter 1</p>
-                                                    </a>
-                                                    <div class="collapse" id="english_10_chapter_1">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                    <a role="button" data-toggle="collapse" href="#english_10_chapter_2">
-                                                        <p>Chapter 2</p>
-                                                    </a>
-                                                    <div class="collapse" id="english_10_chapter_2">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <br clear="both">
-                                        <div class="col-md-3">
-                                            <div class="menu-item red">
-                                                <a role="button" data-toggle="collapse" href="#math_10">
-                                                    <p>Mathematics</p>
-                                                </a>
-                                            </div>
-                                            <div class="collapse" id="math_10">
-                                                <div class="well bold">
-                                                    <a role="button" data-toggle="collapse" href="#math_10_chapter_1">
-                                                        <p>Chapter 1</p>
-                                                    </a>
-                                                    <div class="collapse" id="math_10_chapter_1">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                    <a role="button" data-toggle="collapse" href="#math_10_chapter_2">
-                                                        <p>Chapter 2</p>
-                                                    </a>
-                                                    <div class="collapse" id="math_10_chapter_2">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="menu-item red">
-                                                <a role="button" data-toggle="collapse" href="#physics_10">
-                                                    <p>Physics</p>
-                                                </a>
-                                            </div>
-                                            <div class="collapse" id="physics_10">
-                                                <div class="well bold">
-                                                    <a role="button" data-toggle="collapse" href="#physics_10_chapter_1">
-                                                        <p>Chapter 1</p>
-                                                    </a>
-                                                    <div class="collapse" id="physics_10_chapter_1">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                    <a role="button" data-toggle="collapse" href="#physics_10_chapter_2">
-                                                        <p>Chapter 2</p>
-                                                    </a>
-                                                    <div class="collapse" id="physics_10_chapter_2">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="menu-item red">
-                                                <a role="button" data-toggle="collapse" href="#chemistry_10">
-                                                    <p>Chemistry</p>
-                                                </a>
-                                            </div>
-                                            <div class="collapse" id="chemistry_10">
-                                                <div class="well bold">
-                                                    <a role="button" data-toggle="collapse" href="#chemistry_10_chapter_1">
-                                                        <p>Chapter 1</p>
-                                                    </a>
-                                                    <div class="collapse" id="chemistry_10_chapter_1">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                    <a role="button" data-toggle="collapse" href="#chemistry_10_chapter_2">
-                                                        <p>Chapter 2</p>
-                                                    </a>
-                                                    <div class="collapse" id="chemistry_10_chapter_2">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="menu-item red">
-                                                <a role="button" data-toggle="collapse" href="#biology_10">
-                                                    <p>Biology</p>
-                                                </a>
-                                            </div>
-                                            <div class="collapse" id="biology_10">
-                                                <div class="well bold">
-                                                    <a role="button" data-toggle="collapse" href="#biology_10_chapter_1">
-                                                        <p>Chapter 1</p>
-                                                    </a>
-                                                    <div class="collapse" id="biology_10_chapter_1">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                    <a role="button" data-toggle="collapse" href="#biology_10_chapter_2">
-                                                        <p>Chapter 2</p>
-                                                    </a>
-                                                    <div class="collapse" id="biology_10_chapter_2">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <br clear="both">
-                                        <div class="col-md-3">
-                                            <div class="menu-item red">
-                                                <a role="button" data-toggle="collapse" href="#geography_10">
-                                                    <p>Geography</p>
-                                                </a>
-                                            </div>
-                                            <div class="collapse" id="geography_10">
-                                                <div class="well bold">
-                                                    <a role="button" data-toggle="collapse" href="#geography_10_chapter_1">
-                                                        <p>Chapter 1</p>
-                                                    </a>
-                                                    <div class="collapse" id="geography_10_chapter_1">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                    <a role="button" data-toggle="collapse" href="#geography_10_chapter_2">
-                                                        <p>Chapter 2</p>
-                                                    </a>
-                                                    <div class="collapse" id="geography_10_chapter_2">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="menu-item red">
-                                                <a role="button" data-toggle="collapse" href="#economy_10">
-                                                    <p>Economy</p>
-                                                </a>
-                                            </div>
-                                            <div class="collapse" id="economy_10">
-                                                <div class="well bold">
-                                                    <a role="button" data-toggle="collapse" href="#economy_10_chapter_1" >
-                                                        <p>Chapter 1</p>
-                                                    </a>
-                                                    <div class="collapse" id="economy_10_chapter_1">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                    <a role="button" data-toggle="collapse" href="#economy_10_chapter_2" >
-                                                        <p>Chapter 2</p>
-                                                    </a>
-                                                    <div class="collapse" id="economy_10_chapter_2">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="menu-item red">
-                                                <a role="button" data-toggle="collapse" href="#sosiology_10">
-                                                    <p>Sosiology</p>
-                                                </a>
-                                            </div>
-                                            <div class="collapse" id="sosiology_10">
-                                                <div class="well bold">
-                                                    <a role="button" data-toggle="collapse" href="#sosiology_10_chapter_1">
-                                                        <p>Chapter 1</p>
-                                                    </a>
-                                                    <div class="collapse" id="sosiology_10_chapter_1">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                    <a role="button" data-toggle="collapse" href="#sosiology_10_chapter_2">
-                                                        <p>Chapter 2</p>
-                                                    </a>
-                                                    <div class="collapse" id="sosiology_10_chapter_2">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class="menu-item red">
-                                                <a role="button" data-toggle="collapse" href="#history_10">
-                                                    <p>History</p>
-                                                </a>
-                                            </div>
-                                            <div class="collapse" id="history_10">
-                                                <div class="well bold">
-                                                    <a role="button" data-toggle="collapse" href="#history_10_chapter_1">
-                                                        <p>Chapter 1</p>
-                                                    </a>
-                                                    <div class="collapse" id="history_10_chapter_1">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                    <a role="button" data-toggle="collapse" href="#history_10_chapter_2">
-                                                        <p>Chapter 2</p>
-                                                    </a>
-                                                    <div class="collapse" id="history_10_chapter_2">
-                                                        <div class="well bold">
-                                                            <a href="">Add</a>
-                                                            <br>
-                                                            <a href="">Substract</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                <!-- End Panel Chapter -->
-            
-            </div>
+        <div class="container-fluid">
+      <div class="row row-offcanvas row-offcanvas-left">
 
-        </div>
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+          </div>
+
+          
+        </div><!--/span-->
+        <div class="col-xs-12 col-sm-9 content">
+          <p class="pull-left">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="grade10-offcanvas">Grade 10</button>
+          </p>
+          <br clear="both">
+          <p class="pull-left">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="grade11-offcanvas">Grade 11</button>
+          </p>
+  
+  <div class="text-center">
+    <h1>Bootstrap forms</h1>
+    <p class="lead">Example of a form with 3 columns and labels aligned to the left of the 
+      fields at &gt; 1200px (large) screen sizes, 2 columns and labels aligned to the left of the 
+      fields at &gt;992px (medium) screen sizes, 2 columns labels above fields at &gt; 768px (small), and single 
+      column at &lt; 768px (Extra small). 
+    </p>
+  </div>
+
     </div>
     </div>
+    
 </body>
 
 </html>

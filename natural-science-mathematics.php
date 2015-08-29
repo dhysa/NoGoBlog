@@ -16,7 +16,7 @@
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Template js -->
-    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
 
     <!--[if lt IE 9]>
